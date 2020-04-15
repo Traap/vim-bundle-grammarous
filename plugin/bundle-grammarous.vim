@@ -39,12 +39,12 @@ let g:grammarous#use_location_list=1
 nmap <leader>gC <plug>(grammarous-close-info-window)
 nmap <leader>ge <plug>(grammarous-move-to-next-error)
 nmap <leader>ge <plug>(grammarous-move-to-previous-error)
-nmap <leader>gf <plug>(grammarous-fixall)
+nmap <leader>gF <plug>(grammarous-fixall)
 nmap <leader>gf <plug>(grammarous-fixit)
 nmap <leader>gg :GrammarousCheck<cr>
 nmap <leader>gm <plug>(grammarous-move-to-info-window)
 nmap <leader>gm <plug>(grammarous-open-info-window)
-nmap <leader>gr <plug>(grammarous-remove-error)
+nmap <leader>gR <plug>(grammarous-remove-error)
 nmap <leader>gr <plug>(grammarous-reset)
 nmap <leader>gx <plug>(grammarous-disable-rule)
 " -------------------------------------------------------------------------- }}}
